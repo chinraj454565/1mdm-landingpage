@@ -13,16 +13,16 @@ const IconClose = () => (
 
     // List of navigation items for both desktop and mobile
     const navItems = [
-        { label: 'About Us', href: '#about', active: false },
-        { label: 'Our Story', href: '#story', active: true },
-        { label: 'Sell on 1MDM', href: '#sell', active: false },
-        { label: 'Pricing', href: '#pricing', active: false },
+        { label: 'About Us', href: 'https://1mdm.com/about/index.php', active: false },
+        { label: 'Our Story', href: 'https://1mdm.com/about/our-story.php', active: true },
+        { label: 'Sell on 1MDM', href: 'https://1mdm.com/about/seller.php', active: false },
+        { label: 'Pricing', href: 'https://1mdm.com/about/pricing.php', active: false },
     ];
     
     // Top utility links
     const utilityLinks = [
-        { label: 'My account', href: '#account' },
-        { label: 'Contact Us', href: '#contact' },
+        { label: 'My account', href: 'https://1mdm.com/index.php?route=account/login' },
+        { label: 'Contact Us', href: 'https://1mdm.com/about/contact.php' },
     ];
 
     return (
@@ -36,7 +36,7 @@ const IconClose = () => (
                       <div>
                         {utilityLinks.map((link, index) => (
                             <React.Fragment key={link.label}>
-                                <a href={link.href}>{link.label}</a>
+                                <a className="hero-btn" href={link.href}>{link.label}</a>
                                 {index < utilityLinks.length - 1 && <span> | </span>}
                             </React.Fragment>
                           
@@ -48,7 +48,7 @@ const IconClose = () => (
 
             
             <div className="container header-content">
-                <a href="#" className="logo">
+                <a href="https://1mdm.com/" className="logo hero-btn">
                     1MDM
                 </a>
                 
@@ -58,7 +58,7 @@ const IconClose = () => (
                         <a 
                             key={item.label} 
                             href={item.href} 
-                            className={item.active ? 'active' : ''}
+                            className={` hero-btn ${item.active ? 'active' : ''}`}
                         >
                             {item.label}
                         </a>

@@ -11,24 +11,24 @@ export const Footer = () => (
         <div className="footer-col">
           <h4>Platform</h4>
           <ul>
-            <li><a href="#">Sell on 1MDM</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Story</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Brands</a></li>
+            <li><a href="https://1mdm.com/about/seller.php">Sell on 1MDM</a></li>
+            <li><a href="https://1mdm.com/about/pricing.php">Pricing</a></li>
+            <li><a href="https://1mdm.com/about/index.php">About Us</a></li>
+            <li><a href="https://1mdm.com/about/our-story.php">Our Story</a></li>
+            <li><a href="https://superlabs.co/careers.php">Careers</a></li>
+            <li><a href="https://1mdm.com/index.php?route=extension/maza/blog/home">Blog</a></li>
+            <li><a href="https://1mdm.com/index.php?route=product/manufacturer">Brands</a></li>
          </ul>
         </div>
         <div className="footer-col">
           <h4>Press Room</h4>
           <ul>
-            <li><a href="#">Images and B-roll</a></li>
+            <li><a href="https://1mdm.com/about/press.php">Images and B-roll</a></li>
 
             <li><h4>Policies</h4></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Delivery Information</a></li>
+            <li><a href="https://1mdm.com/terms-of-service">Terms of Service</a></li>
+            <li><a href="https://1mdm.com/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://1mdm.com/delivery-information">Delivery Information</a></li>
           </ul>
         </div>
 
@@ -37,8 +37,8 @@ export const Footer = () => (
         <div className="footer-col">
           <h4>Reach Us</h4>
           <ul>
-            <li><a href="#">Corporate Information</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="https://1mdm.com/corporate-information">Corporate Information</a></li>
+            <li><a href="https://1mdm.com/about/contact.php">Contact Us</a></li>
             
           </ul>
         </div>

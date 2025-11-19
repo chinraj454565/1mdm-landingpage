@@ -1,7 +1,7 @@
 /* CSS Variables */
     :root {
         --color-primary: #d01818;
-        --color-primary-dark: #0056b3;
+        --color-primary-dark: #dce0e5;
         --color-secondary: #f8f9fa;
         --color-dark: #343a40;
         --color-light: #ffffff;
@@ -156,6 +156,11 @@
         /* background-position: center; */
         background-blend-mode: hard-light;
     }
+
+    .hero-btn:hover{
+        color: #d01818;
+       
+    }
     
     .reach-heading{
       margin-left: 10%;
@@ -217,6 +222,7 @@
         border: 2px solid var(--color-primary);
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .btn-secondary .icon {
@@ -649,6 +655,10 @@
     .cta-banner .btn-secondary:hover {
         background-color: var(--color-primary-dark);
         border-color: var(--color-primary-dark);
+    }
+
+    .btn-cta:hover{
+        background-color: white;
     }
 
 

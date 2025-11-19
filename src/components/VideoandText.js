@@ -7,13 +7,14 @@ export const VideoandText = () => (
       <h2 className="section-subtitle">1mdm.com is a leading ecommerce platform <span style={{display:"block"}}>that</span> helps SMEs go global</h2>
       <div className="video-content-grid">
         
-        <div className="video-placeholder">
+        <div className="video-placeholder"><a href="https://www.youtube.com/watch?v=TN7iJyc5Uks&t=1s">
           <div className="video-media-wrapper">
             <p>SIGNA™ Explorer Lift Installation Video</p>
             <div className="play-button-overlay">▶</div>
           </div>
-          <p className="video-caption">Watch on <IconSupport style={{width: '16px', height: '16px', color: 'red'}} /> Youtube</p>
-        </div>
+          <p className="video-caption">Watch on <IconSupport style={{width: '16px', height: '16px', color: 'red'}} /> Youtube</p> 
+          
+        </a></div>
         
         
         <div className="value-points">
