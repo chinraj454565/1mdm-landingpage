@@ -45,7 +45,7 @@ export const SuccessStories = () => {
     };
 
     useEffect(() => {
-        const intervalId = setInterval(nextStory, 13000); 
+        const intervalId = setInterval(nextStory, 12000); 
         
         
         return () => clearInterval(intervalId);
