@@ -15,9 +15,9 @@ export const HeroSection = () => {
            <h1>Sell on 1mdm.com</h1>
            <h2>Reach millions of B2B medical equipment buyers globally</h2>
            <div className="cta-group">
-              <button className="btn btn-primary"><a href="https://1mdm.com/about/pricing.php">Start selling</a></button>
+              <button className="btn btn-primary" ><a className="sellerbtn" href="https://1mdm.com/about/pricing.php" style={{color : "white"}}>Start selling</a></button>
               <button className="btn btn-secondary" >
-              <a style={{textAlign:"center"}} href="https://api.whatsapp.com/send/?phone=%2B919820045154&text&type=phone_number&app_absent=0">
+              <a className="chatbutton" style={{textAlign:"center"}} href="https://api.whatsapp.com/send/?phone=%2B919820045154&text&type=phone_number&app_absent=0">
               Chat with consultant</a>
               </button>
             </div> 

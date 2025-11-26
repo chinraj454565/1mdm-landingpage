@@ -1,4 +1,4 @@
-/* CSS Variables */
+
     :root {
         --color-primary: #d01818;
         --color-primary-dark: #dce0e5;
@@ -20,7 +20,7 @@
     }
     
 
-    /* Base & Typography */
+ 
     body {
         font-family: 'Inter', sans-serif;
         margin: 0;
@@ -40,14 +40,14 @@
         line-height: 1.2;
     }
 
-    /* Utility Classes */
+   
     .container {
         max-width: var(--max-width);
         margin: 0 auto;
         padding: 0 var(--spacing-md);
     }
 
-        /* --- HEADER (Updated for Mobile Menu) --- */
+        /* --- HEADER ----*/
     .utility-bar {
         background-color: #f1f1f1;
         font-size: 0.75rem;
@@ -63,7 +63,7 @@
     
     .utility-content p {
         margin: 0;
-        display: none; /* Hidden on small mobile */
+        display: none; 
     }
 
     .header {
@@ -84,11 +84,11 @@
     .logo {
         font-size: 1.5rem;
         font-weight: 800;
-        color: var(--red-indicator); /* Using red for the 1MDM logo as per the image */
+        color: var(--red-indicator); 
     }
 
     .nav-links-desktop {
-        display: none; /* Default hidden on mobile */
+        display: none; 
         align-items: center;
         gap: 2rem;
     }
@@ -120,7 +120,7 @@
         color: var(--color-gray);
         padding: 5px 10px;
         cursor: pointer;
-        display: block; /* Show on mobile */
+        display: block; 
     }
     
     .nav-links-mobile {
@@ -147,14 +147,13 @@
     /* --- Hero Section --- */
     .hero-section {
         padding: 80px 0 50px 0;
-        /* text-align: center; */
+        
         background-color: var(--color-secondary);
         display: flex;
-        background-image: url("https://hctechno.com/wp-content/uploads/2025/04/slide_bg_01.webp");
+        background-image: url("https://1mdm.com/about/assets/seller-banner.png");
         background-size: cover;
-        background-position-x: left;
-        /* background-position: center; */
-        background-blend-mode: hard-light;
+        background-position: center;
+        height: 500px;
     }
 
     .hero-btn:hover{
@@ -196,7 +195,7 @@
 
     .btn {
         padding: 12px 32px;
-        border-radius: 12px;
+        border-radius: 18px;
         font-size: 1rem;
         font-weight: 700;
         transition: all 0.3s;
@@ -205,10 +204,13 @@
 
     .btn-primary {
         background-color: var(--color-primary);
-        color: var(--color-light);
+        /* color: var(--color-light); */
+        
         border: 2px solid var(--color-primary);
         box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
     }
+
+    
 
     .btn-primary:hover {
         
@@ -218,7 +220,7 @@
 
     .btn-secondary {
         background-color: var(--color-light);
-        color: var(--color-primary);
+        
         border: 2px solid var(--color-primary);
         display: flex;
         align-items: center;
@@ -236,6 +238,12 @@
        color: white;
 
     }
+
+    .chatbutton:hover{
+        color: white;
+    }
+
+    
 
     /* Stats Bar */
     .stats-bar {
@@ -647,12 +655,14 @@
 
     .cta-banner .btn-secondary {
         color: var(--color-light);
+        
         border-color: var(--color-light);
         background: transparent;
         
     }
 
     .cta-banner .btn-secondary:hover {
+        color: white;
         background-color: var(--color-primary-dark);
         border-color: var(--color-primary-dark);
     }
@@ -1035,3 +1045,4 @@
         text-align: left;
     }
 }
+
