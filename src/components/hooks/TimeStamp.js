@@ -27,6 +27,6 @@ export const TimeStamp = ({finalValue})=>{
     requestAnimationFrame(animate);
   }, []);
 
-  return (<><p className="stat-value">{value.toLocaleString("en-IN")}</p></>)
+  return (<><p className="stat-value">{value.toLocaleString("en-US")}</p></>)
 
 }
