@@ -1,11 +1,14 @@
 
+import {TimeStamp} from "./hooks/TimeStamp"
 
 export const HeroSection = () => {
   const stats = [
-    { value: '26,000,000', label: 'active buyers globally' },
-    { value: '400,000', label: 'product inquiries daily' },
-    { value: '200', label: 'countries and regions represented' },
+    { value: 26000000, label: 'active buyers globally' },
+    { value: 400000 ,label: 'product inquiries daily' },
+    { value: 200, label: 'countries and regions represented' },
   ];
+
+ 
 
   return (
     <section className="hero-section">
@@ -27,8 +30,7 @@ export const HeroSection = () => {
         <div className="stats-bar">
           {stats.map((stat, index) => (
             <div key={index} className="stat-item">
-              
-              <p className="stat-value">{stat.value}</p>
+              <TimeStamp finalValue={stat.value} />              {/* <p className="stat-value">{stat.value}</p> */}
               <p className="stat-label">{stat.label}</p>
             </div>
           ))}
